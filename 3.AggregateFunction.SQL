@@ -184,3 +184,12 @@ FROM Customers;""
 
 ""SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address
 FROM Customers;""
+
+
+
+-- LENGTH OF A string in SQL
+
+"For calculating Length we use char_length"
+
+""select tweet_id from Tweets 
+where char_length(content) > 15""
